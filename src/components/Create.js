@@ -60,7 +60,7 @@ class Create extends Component {
               </div>
               <div className="form-group">
                 <label htmlFor="description">Description:</label>
-                <textarea className="form-control" name="description" onChange={this.onChange} placeholder="Description" cols="80" rows="3" value="">{description}</textarea>
+                <textarea className="form-control" name="description" onChange={this.onChange} placeholder="Description" cols="80" rows="3" value={description}></textarea>
               </div>
               <div className="form-group">
                 <label htmlFor="author">Author:</label>
